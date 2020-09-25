@@ -1,0 +1,269 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9ecef;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #343a40;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    padding-bottom: 18px;
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+
+div.pretty-container {
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 40px;
+  padding: 10px;
+  vertical-align: middle;
+  margin-left: 40px;
+  position: relative;
+  box-shadow: 3px 3px 3px lightgrey;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+div.table-display {
+    width: 32cm;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: white;
+    vertical-align: middle;
+    box-shadow: 3px 3px 3px lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+div.wrong-cred {
+    color: red;
+}
+
+div.form {
+    width: 15cm;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+    vertical-align: middle;
+    box-shadow: 3px 3px 3px lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+div.authentification-form {
+    width: 13cm;
+    height: 85mm;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: #343a40;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+div.class-output {
+    margin-left: 50px;
+}
+
+div.dashboard > table{
+    margin-left: 25px;
+}
+
+span.menu {
+    position: relative;
+    font-weight: normal;
+    left: 9cm;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 9px;
+    margin-left: 5mm;
+    display: inline-block;
+    font-weight: unset;
+}
+
+h2 {
+    text-align: center;
+    color: #343a40;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'Courier New', monospace;
+    font-size: 16;
+    color: #7f7f7f;
+    font-weight: bold;
+    text-align: center;
+}
+
+label {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2a3f5f;
+}
+
+label.drop-form {
+    text-decoration: underline;
+    color: grey;
+    margin-left: 10px;
+}
+
+a {
+    border-right: thin solid #D3D3D3;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+a.last {
+    border: none;
+}
+
+a.file-reader {
+    border: none;
+    padding: unset;
+    color: grey;
+    text-decoration: underline;
+}
+
+a.file-reader:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #7bc7ff;
+    transition-duration: 200ms;
+}
+
+button {
+    background-color: inherit;
+}
+
+button.submit {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 60mm;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: inherit;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: #2a3f5f;
+}
+
+button.submit:hover {
+    transition-duration: 200ms;
+    cursor: pointer;
+    color: #7bc7ff;
+}
+
+button.login-button {
+    margin-top: 35px;
+    margin-bottom: 3px;
+    background-color: #7bc7ff;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+button.login-button:hover {
+    cursor: pointer;
+}
+
+button.datatable-menu {
+    margin-left: auto;
+    margin-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button.datatable-menu:hover {
+    cursor: pointer;
+    transition-duration: 200ms;
+    color: #7bc7ff;
+}
+
+input.auth {
+    border-radius: 7px;
+    border: 3px solid transparent;
+    height: 33px;
+    width: 5cm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+input.auth:focus {
+    border: 3px solid #7bc7ff;
+}
+
+input.current-page {
+    background-color: inherit;
+}   
+
+iframe {
+    border: none;
+}
+
+/*To remove plotly's floating bar*/
+.modebar{
+      display: none !important;
+}
+
+.tabs {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.tab {
+    height: 40px;
+    background-color: #2a3f5f;
+    
+}
